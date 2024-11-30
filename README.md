@@ -36,6 +36,10 @@ You have now completed setting up a `load balancer` and now you can continue to 
 >[Note]
 Remember to configure your two new droplets system user using (link to part 1)
 
+Click this link to set up user
+[Assignment-3-p1-user-creation](https://github.com/Basra97/2420-Assignment-3?tab=readme-ov-file#task-1-creation-of-system-user)
+
+
 1. Creating a new system user 
 
 Copy the following command to create a system user 
@@ -128,8 +132,7 @@ Copy and paste the following server block into the `webgen` server block file.
 ```
 server {
    listen 80;
-   listen [::]:80;
-   server_name 64.23.251.98;
+   server_name <droplet-ip>;
 
     location / {
        root /var/lib/webgen/HTML;
@@ -146,7 +149,7 @@ server {
    }
 }
 ```
-
+note: put your droplet ip in the server block. 
 2. Now continue on from task 3 in part 1 of the assignment. 
 
 
