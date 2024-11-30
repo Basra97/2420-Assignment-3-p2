@@ -121,5 +121,55 @@ note: if you want to see the directory streucter.....
 
 ## Task 3: Modifying nginx file and creating a new server block to include a file server. 
 
-1. 
+1. New server block configuration 
 
+Copy and paste the following server block into the `webgen` server block file. 
+
+```
+server {
+   listen 80;
+   listen [::]:80;
+   server_name 64.23.251.98;
+
+    location / {
+       root /var/lib/webgen/HTML;
+       index index.html;
+       try_files $uri $uri/ =404;
+   }
+
+   location /documents {
+       alias /var/lib/webgen/documents/;
+       autoindex on;
+       autoindex_exact_size off;
+       autoindex_localtime on;
+       try_files $uri $uri/ =404;
+   }
+}
+```
+
+2. Now continue on from task 3 in part 1 of the assignment. 
+
+
+## Task 4: Load Balancer system information page
+
+1. Droplet IP Address
+
+To find your droplet's IP address, go to DigitalOcean and click the droplet section and copy the two new droplets ip works, and then also the load balancers IP.  
+
+Then
+
+Go to your preferred browser and type.
+
+```
+http://droplet-ip
+```
+
+if working, open the URL, and add `/documents` to the end of the IP.
+
+```
+http://droplet-ip/documents
+```
+
+Your page should be like this.
+
+You have successfully completed the assignment 3-part-2 tasks!
