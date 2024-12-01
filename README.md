@@ -31,12 +31,10 @@ create new load balancer to get ss
 
 You have now completed setting up a `load balancer` and now you can continue to task 2.
 
-## Task 2: Setting up and configuring new files
+## Task 2: Setting up and configuring new droplets and files.
 
->[Note]
-Remember to configure your two new droplets system user using (link to part 1)
-
-Click this link to set up user
+>[!NOTE]
+Remember to configure your two new droplets system user using, Click this link to set up user
 [Assignment-3-p1-user-creation](https://github.com/Basra97/2420-Assignment-3?tab=readme-ov-file#task-1-creation-of-system-user)
 
 
@@ -118,14 +116,32 @@ sudo touch /var/lib/webgen/HTML/index.html
 sudo chown -R webgen:webgen /var/lib/webgen
 ```
 
-note: if you want to see the directory streucter.....
+>[!NOTE]
+To see the directory structure, install tree by copying the following command
+``` 
+sudo pacman -S tree
+```
+then
 
-9. go to task 2 in part 1 to configure the rest
+```
+tree /var/lib/webgen
+```
+Use the above to verify your directory structure. 
+
+9. Go to task 2 in part 1 to configure the rest
+[Assignment-3-p1-Creation of service and timer scripts](https://github.com/Basra97/2420-Assignment-3?tab=readme-ov-file#task-2-creation-of-service-and-timer-scripts)
+
+>[!IMPORTANT] 
+Complete until Task 3, step 5, then return and copy and paste the new server block below.
 
 
 ## Task 3: Modifying nginx file and creating a new server block to include a file server. 
 
 1. New server block configuration 
+
+```
+sudo nvim /etc/nginx/sites-available/webgen
+```
 
 Copy and paste the following server block into the `webgen` server block file. 
 
@@ -149,8 +165,17 @@ server {
    }
 }
 ```
-note: put your droplet ip in the server block. 
-2. Now continue on from task 3 in part 1 of the assignment. 
+>[!NOTE]
+Put your droplet ip in the server_name. 
+
+2. Now continue on from task 3 in part 1 of the assignment (Task-3-Step 6). 
+
+>[!NOTE]
+Complete until Task 5: System Information Page, then return to do the task 4: Load Balancer system information page below. 
+
+note to self: add internal link above.
+
+[task 3: Configuration of nginx and creation of Server Blocks](https://github.com/Basra97/2420-Assignment-3?tab=readme-ov-file#task-3-configuration-of-nginx-and-creation-of-server-blocks)
 
 
 ## Task 4: Load Balancer system information page
