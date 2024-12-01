@@ -6,7 +6,7 @@ Configuring DigitalOcean droplets and a load balancer and Nginx File
 
 1. Go to DigitalOcean and clcik on the green `create` and then click droplet.
 
-![Load balancer](/2420-Assignment-3-p2/public/Screenshot%202024-11-30%20at%2012.19.10 PM.png)
+![Load balancer](/2420-Assignment-3-p2/digocean.png)
 
 2. After clicking droplet, configure your droplet and change quantity to two droplets. Quantity will be seen at the bottom under `Finalize Details`
 
@@ -168,7 +168,7 @@ server {
 Put your droplet ip in the server_name. 
 
 2. Now continue on from where you left off in part 1.(Task 3: step 6)
-[task 3: Configuration of nginx and creation of Server Blocks](https://github.com/Basra97/2420-Assignment-3?tab=readme-ov-file#task-3-configuration-of-nginx-and-creation-of-server-blocks)
+[Task 3: Configuration of nginx and creation of Server Blocks](https://github.com/Basra97/2420-Assignment-3?tab=readme-ov-file#task-3-configuration-of-nginx-and-creation-of-server-blocks)
 
 >[!NOTE]
 Follow part 1 until Task 5: System Information Page, then return to do the task 4: Load Balancer system information. 
