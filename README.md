@@ -1,4 +1,4 @@
-## Assignment-3p2
+## Assignment 3: Part 2
 
 Configuring DigitalOcean droplets and a load balancer and Nginx File
 
@@ -22,7 +22,7 @@ Configuring DigitalOcean droplets and a load balancer and Nginx File
 
 8. Then click `Create load balancer`
 
-If the steos above were done correct, the output should look like this:
+If the steps above were done correct, the output should look like this:
 
 image
 
@@ -132,8 +132,7 @@ Use the above to verify your directory structure.
 [Assignment-3-p1-Creation of service and timer scripts](https://github.com/Basra97/2420-Assignment-3?tab=readme-ov-file#task-2-creation-of-service-and-timer-scripts)
 
 >[!IMPORTANT] 
-Complete until Task 3, step 5, then return and copy and paste the new server block below.
-
+Complete until Task 3: step 5, then return and copy and paste the new server block below.
 
 ## Task 3: Modifying nginx file and creating a new server block to include a file server. 
 
@@ -168,15 +167,13 @@ server {
 >[!NOTE]
 Put your droplet ip in the server_name. 
 
-2. Now continue on from task 3 in part 1 of the assignment (Task-3-Step 6). 
-
->[!NOTE]
-Complete until Task 5: System Information Page, then return to do the task 4: Load Balancer system information page below. 
-
-note to self: add internal link above.
-
+2. Now continue on from where you left off in part 1.(Task 3: step 6)
 [task 3: Configuration of nginx and creation of Server Blocks](https://github.com/Basra97/2420-Assignment-3?tab=readme-ov-file#task-3-configuration-of-nginx-and-creation-of-server-blocks)
 
+>[!NOTE]
+Follow part 1 until Task 5: System Information Page, then return to do the task 4: Load Balancer system information. 
+
+note to self: add internal link above.
 
 ## Task 4: Load Balancer system information page
 
