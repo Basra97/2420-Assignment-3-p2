@@ -6,7 +6,7 @@ Configuring DigitalOcean droplets and a load balancer and Nginx File
 
 1. Go to DigitalOcean and clcik on the green `create` and then click droplet.
 
-![Droplet](/digocean.png)
+![Droplet](/2420-Assignment-3-p2/digocean.png)
 
 2. After clicking droplet, configure your droplet and change quantity to two droplets. Quantity will be seen at the bottom under `Finalize Details`
 
@@ -186,7 +186,7 @@ Go to your preferred browser and type.
 http://droplet-ip
 ```
 
-![Load-Balancer](/loadbalancerIP.png)
+![Load-BalanceriP](/2420-Assignment-3-p2/loadbalancerIP.png)
 
 
 if working, open the URL, and add `/documents` to the end of the IP.
@@ -197,7 +197,7 @@ http://droplet-ip/documents
 
 Your page should be like this.
 
-![Load-Balancer](/2420-Assignment-/)
+![Load-Balancer Document](/2420-Assignment-3-p2/Loadbalancerdocu.png)
 
 You have successfully completed the assignment 3-part-2 tasks!
 
