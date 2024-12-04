@@ -170,3 +170,22 @@ Your page should be like this.
 
 You have successfully completed the assignment 3-part-2 tasks!
 
+## References
+
+man useradd -r options for creating a system account user
+
+Nginx. nginx - ArchWiki. (n.d.). https://wiki.archlinux.org/title/Nginx
+
+Systemd/Timers. systemd/Timers - ArchWiki. (n.d.). https://wiki.archlinux.org/title/Systemd/Timers
+
+Uncomplicated firewall. Uncomplicated Firewall - ArchWiki. (n.d.). https://wiki.archlinux.org/title/Uncomplicated_Firewall
+
+2420-notes/week-TWELVE.MD · main · cit_2420 / 2420-notes-F24 · GITLAB. GitLab. (n.d.). https://gitlab.com/cit2420/2420-notes-f24/-/blob/main/2420-notes/week-twelve.md
+
+2420-notes/week-TEN.MD · main · cit_2420 / 2420-notes-F24 · GITLAB. GitLab. (n.d.-a). https://gitlab.com/cit2420/2420-notes-f24/-/blob/main/2420-notes/week-ten.md
+
+2420-notes/week-eleven.md · main · cit_2420 / 2420-notes-F24 · GITLAB. GitLab. (n.d.-a). https://gitlab.com/cit2420/2420-notes-f24/-/blob/main/2420-notes/week-eleven.md
+
+Understanding the nginx configuration file structure and configuration contexts. DigitalOcean. (n.d.). https://www.digitalocean.com/community/tutorials/understanding-the-nginx-configuration-file-structure-and-configuration-contexts
+
+GeeksforGeeks. (2024, February 13). How to create directory in linux: Mkdir command. https://www.geeksforgeeks.org/mkdir-command-in-linux-with-examples/
