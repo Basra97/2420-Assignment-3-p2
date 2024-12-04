@@ -6,7 +6,7 @@ Configuring DigitalOcean droplets and a load balancer and Nginx File
 
 1. Go to DigitalOcean and clcik on the green `create` and then click droplet.
 
-![Droplet](/2420-Assignment-3-p2/digocean.png)
+![Droplet](digocean.png) 
 
 2. After clicking droplet, configure your droplet and change quantity to two droplets. Quantity will be seen at the bottom under `Finalize Details`
 
