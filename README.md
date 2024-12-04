@@ -2,6 +2,10 @@
 
 Setting up DigitalOcean droplets, load balancers and Nginx web server. 
 
+## Table of Contents
+
+
+
 ## Task 1: Setting up two droplets and configuring load balancer. 
 
 1.Go to DigitalOcean, click the green `create button`, and then select Droplet.
@@ -189,3 +193,5 @@ Uncomplicated firewall. Uncomplicated Firewall - ArchWiki. (n.d.). https://wiki.
 Understanding the nginx configuration file structure and configuration contexts. DigitalOcean. (n.d.). https://www.digitalocean.com/community/tutorials/understanding-the-nginx-configuration-file-structure-and-configuration-contexts
 
 GeeksforGeeks. (2024, February 13). How to create directory in linux: Mkdir command. https://www.geeksforgeeks.org/mkdir-command-in-linux-with-examples/
+
+2420-notes/week-thirteen.md · main · cit_2420 / 2420-notes-F24 · GITLAB. GitLab. (n.d.-c). https://gitlab.com/cit2420/2420-notes-f24/-/blob/main/2420-notes/week-thirteen.md 
