@@ -1,6 +1,6 @@
 ## Assignment 3: Part 2
 
-Configuring DigitalOcean droplets and a load balancer and Nginx File
+Setting up DigitalOcean droplets, load balancers and Nginx webserver. 
 
 ## Task 1: Setting up two droplets and configuring load balancer. 
 
