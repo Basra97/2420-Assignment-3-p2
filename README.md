@@ -31,40 +31,11 @@ You have now completed setting up a `load balancer` and now you can continue to 
 ## Task 2: Setting up and configuring new droplets and files.
 
 >[!NOTE]
-Remember to configure your two new droplets system user using, Click this link to set up user
+Remember to configure your two new droplets system user, Click this link to set up user
 [Assignment-3-p1-user-creation](https://github.com/Basra97/2420-Assignment-3?tab=readme-ov-file#task-1-creation-of-system-user)
+Please return once you reach the cloning repository step!
 
-
-1. Creating a new system user 
-
-Copy the following command to create a system user 
-
-```
-sudo useradd -r -d /var/lib/webgen -s /usr/sbin/nologin webgen
-```
-
--*r*: creates a system user account 
-
--*d*: specifies the home directory
-
--*s*: specifies a non login shell 
-
->[!NOTE]
-We want to create a system user because of the improved security.
-
-2. Copy and paste the following command to create a home directory. 
-
-```
-sudo mkdir -p /var/lib/webgen
-```
-
-Then, copy and paste the following command to create `bin` and `HTML` sub-directories in the webgen directory.
-
-```
-sudo mkdir -p /var/lib/webgen/bin /var/lib/webgen/HTML
-```
-
-3. Git clone repository. 
+1. Git clone repository. 
 
 Copy and Paste the command below to gain the generate_index starter file. 
 
@@ -72,13 +43,13 @@ Copy and Paste the command below to gain the generate_index starter file.
 git clone https://git.sr.ht/~nathan_climbs/2420-as3-p2-start
 ``` 
 
-4. Moving generate_index file to `/var/lib/webgen/bin` directory. 
+2. Moving generate_index file to `/var/lib/webgen/bin` directory. 
 
 ```
 sudo mv 2420-as3-p2-start/generate_index /var/lib/webgen/bin/
 ```
 >[!NOTE]
-You must give `generate_index` permission to be executable. 
+You must give `generate_index` permission to be executable. (Part 1 of Assignment 3, Step 4.)
 
 Copy and Paste the command to give it permission. 
 
@@ -86,12 +57,12 @@ Copy and Paste the command to give it permission.
 sudo chmod +x /var/lib/webgen/bin/generate_index
 ```
 
-5. Create a documents directory in `webgen` directory.
+3. Create a documents directory in `webgen` directory.
 
 ```
 sudo mkdir /var/lib/webgen/documents
 ``` 
-6. Create two files, `file-one` and `file-two` in the `webgen/documents` directory. 
+4. Create two files, `file-one` and `file-two` in the `webgen/documents` directory. 
 
 ```
 sudo touch /var/lib/webgen/documents/file-one 
@@ -101,13 +72,13 @@ sudo touch /var/lib/webgen/documents/file-one
 sudo touch /var/lib/webgen/documents/file-two
 ```
 
-7. Create a index.html file in `webgen/HTML` directory.
+5. Create a index.html file in `webgen/HTML` directory.
 
 ```
 sudo touch /var/lib/webgen/HTML/index.html
 ```
 
-8. Setting ownership
+6. Setting ownership
 
 ```
 sudo chown -R webgen:webgen /var/lib/webgen
@@ -125,7 +96,7 @@ tree /var/lib/webgen
 ```
 Use the above to verify your directory structure. 
 
-9. Go to task 2 in part 1 to configure the rest
+7. Go to task 2 in part 1 to configure the rest
 [Assignment-3-p1-Creation of service and timer scripts](https://github.com/Basra97/2420-Assignment-3?tab=readme-ov-file#task-2-creation-of-service-and-timer-scripts)
 
 >[!IMPORTANT] 
