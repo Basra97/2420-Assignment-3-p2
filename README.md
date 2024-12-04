@@ -168,7 +168,7 @@ http://droplet-ip/documents
 
 Your page should be like this.
 
-![Load-Balancer Document](loadbalancerUP.png)
+![Load-Balancer Document](Loadbalancerdocu.png)
 
 You have successfully completed the assignment 3-part-2 tasks!
 
