@@ -141,8 +141,6 @@ Put your droplet ip in the server_name.
 >[!NOTE]
 Follow part 1 until Task 5: System Information Page, then return to do the task 4: Load Balancer system information. 
 
-note to self: add internal link above.
-
 ## Task 4: Load Balancer system information page
 
 1. Droplet IP Address
