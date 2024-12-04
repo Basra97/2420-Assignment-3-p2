@@ -1,10 +1,10 @@
 ## Assignment 3: Part 2
 
-Setting up DigitalOcean droplets, load balancers and Nginx webserver. 
+Setting up DigitalOcean droplets, load balancers and Nginx web server. 
 
 ## Task 1: Setting up two droplets and configuring load balancer. 
 
-1. Go to DigitalOcean and click on the green `create` and then click droplet.
+1.Go to DigitalOcean, click the green `create button`, and then select Droplet.
 
 ![Droplet](digocean.png) 
 
@@ -110,7 +110,7 @@ Complete until Task 3: step 5, then return and copy and paste the new server blo
 sudo nvim /etc/nginx/sites-available/webgen
 ```
 
-Copy and paste the following server block into the `webgen` server block file. 
+Copy and Paste the following server block into the `webgen` server block file. 
 
 ```
 server {
