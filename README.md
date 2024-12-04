@@ -4,7 +4,7 @@ Configuring DigitalOcean droplets and a load balancer and Nginx File
 
 ## Task 1: Setting up two droplets and configuring load balancer. 
 
-1. Go to DigitalOcean and clcik on the green `create` and then click droplet.
+1. Go to DigitalOcean and click on the green `create` and then click droplet.
 
 ![Droplet](digocean.png) 
 
@@ -16,7 +16,7 @@ Configuring DigitalOcean droplets and a load balancer and Nginx File
 
 5. Click the green create button again, and click `load balancers` 
 
-6. When configuring, select the same `datacenter region` as the two droplets you previously made.
+6. When configuring, select the same `data center region` as the two droplets you previously made.
 
 7. Then, click on add droplets and type the tag name `web`
 
@@ -147,7 +147,7 @@ note to self: add internal link above.
 
 1. Droplet IP Address
 
-To find your droplet's IP address, go to DigitalOcean and click the droplet section and copy the two new droplets ip works, and then also the load balancers IP.  
+To find your droplets' IP address, go to DigitalOcean and click the droplet section and copy the two new droplets ip works, and then also the load balancers IP.  
 
 Then
 
