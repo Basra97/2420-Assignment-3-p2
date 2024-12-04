@@ -24,7 +24,7 @@ Configuring DigitalOcean droplets and a load balancer and Nginx File
 
 If the steps above were done correct, the output should look like this:
 
-![Load-Balancer](/loadbalancer.png)
+![Load-Balancer](loadbalancerUP.png)
 
 You have now completed setting up a `load balancer` and now you can continue to task 2.
 
@@ -157,7 +157,7 @@ Go to your preferred browser and type.
 http://droplet-ip
 ```
 
-![Load-BalanceriP](/2420-Assignment-3-p2/loadbalancerIP.png)
+![Load-BalanceriP](loadbalancerIP.png)
 
 
 if working, open the URL, and add `/documents` to the end of the IP.
@@ -168,7 +168,7 @@ http://droplet-ip/documents
 
 Your page should be like this.
 
-![Load-Balancer Document](/2420-Assignment-3-p2/Loadbalancerdocu.png)
+![Load-Balancer Document](loadbalancerUP.png)
 
 You have successfully completed the assignment 3-part-2 tasks!
 
